@@ -2,7 +2,7 @@ import "./WhyChooseUs.scss";
 
 const cardList = [
   {
-    src: "public/background/easy.png",
+    src: "background/easy.png",
     title: "Easy to Use",
     content: "Manage your assets easily in one page: Wrapping, Unwrapping, Sending, Delegating, Claiming Rewards",
   },
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
       <div className="flex justify-center flex-wrap gap-10">
         {cardList.map((card, index) => {
           return (
-            <div className={index % 2 == 0 ? "pb-10" : "pt-10"}>
+            <div className={index % 2 == 0 ? "pb-10" : "pt-10"} key={"card" + index}>
               <div className="card" key={"card" + index}>
                 <img src={card.src} alt="card-image" />
                 <h4 className="card-title">{card.title}</h4>

@@ -2,7 +2,7 @@ import Home from "./Home";
 import WhyChooseUs from "./WhyChooseUs";
 import Howitworks from "./Howitworks";
 import Roadmap from "./Roadmap";
-import DiamonArrow from "@/components/DiamonArrow";
+import DiamonArrow from "src/components/DiamonArrow";
 import See from "./See";
 import "./Main.scss";
 
