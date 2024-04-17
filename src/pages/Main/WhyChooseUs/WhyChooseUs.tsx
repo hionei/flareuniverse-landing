@@ -7,17 +7,17 @@ const cardList = [
     content: "Manage your assets easily in one page: Wrapping, Unwrapping, Sending, Delegating, Claiming Rewards",
   },
   {
-    src: "public/background/fee.png",
+    src: "background/fee.png",
     title: "0 FLR(SGB) Auto-claim fee",
     content: "Experience zero fees upon activating auto-claim functionality for automatic delegation reward retrieval.",
   },
   {
-    src: "public/background/running.png",
+    src: "background/running.png",
     title: "Awesome FTSO",
     content: "We are going to run ftso data provider with high success rate and reward rate to delegators.",
   },
   {
-    src: "public/background/metrics.png",
+    src: "background/metrics.png",
     title: "Wide insights for metrics",
     content:
       "Unlike other metrics, our metrics update quickly, displaying a wide insights and highly accurate performance of ftso data providers.",

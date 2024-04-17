@@ -5,7 +5,7 @@ const Roadmap = () => {
       <h3>
         The <span>Roadmap</span>
       </h3>
-      <img src="public/background/roadmap.png" />
+      <img src="background/roadmap.png" />
     </div>
   );
 };
