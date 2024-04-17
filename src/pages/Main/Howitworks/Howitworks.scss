@@ -1,0 +1,41 @@
+.howitworks {
+  font-size: 3em;
+  font-weight: 800;
+  span {
+    background: -webkit-linear-gradient(right, #5fa6ff, #282eeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.content-item {
+  img {
+    max-width: 500px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #5fa6ff;
+  }
+  .item-desc-box {
+    text-align: start;
+    label {
+      background: -webkit-linear-gradient(right, #5fa6ff, #282eeb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h3 {
+      font-size: 1.6em;
+    }
+
+    p {
+      color: #aaa;
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .content-item {
+    img {
+      max-width: 300px;
+    }
+  }
+}

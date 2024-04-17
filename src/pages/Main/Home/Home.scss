@@ -1,0 +1,23 @@
+#home {
+  background: url("/public/background/sphere-pink.svg") 1390px 361px no-repeat,
+    url("/public/background/monero.svg") 1228px 173px no-repeat, url("/public/background/eth.svg") 1141px 575px no-repeat,
+    url("/public/background/flr.png") 362px 669px no-repeat, url("/public/background/star-img-2.svg") 1458px 219px no-repeat,
+    url("/public/background/star-img-1.svg") 1362px 171px no-repeat, url("/public/background/star-img.svg") 1321px 716px no-repeat,
+    url("/public/background/sphere.svg") 198px 373px no-repeat, url("/public/background/star-img.svg") 316px 257px no-repeat,
+    url("/public/background/Bitcoin-1.svg") 168px 124px no-repeat, url("/public/background/Ellipse\ 74.svg") 182px 122px no-repeat,
+    url("/public/background/Ellipse\ 75.svg") -96px 7px no-repeat,
+    url("/public/background/Ellipse\ 76.svg") -356px -187px no-repeat,
+    url("/public/background/flash2.svg") -219px -359px no-repeat, url("/public/background/flash3.svg") 836px -169px no-repeat;
+  height: 100vh;
+}
+
+.home-text {
+  font-weight: 800;
+  font-family: "Inter";
+
+  span {
+    background: -webkit-linear-gradient(right, #ef00ff, #5f5dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

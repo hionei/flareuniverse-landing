@@ -1,0 +1,24 @@
+.choose-us {
+  font-size: 3em;
+  font-weight: 800;
+  span {
+    background: -webkit-linear-gradient(right, #5fa6ff, #282eeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.card {
+  border-width: 1px;
+  border-radius: 15px;
+  max-width: 200px;
+  border-color: #333;
+  .card-title {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  .card-content {
+    font-size: 0.8em;
+    color: #aaa;
+  }
+}

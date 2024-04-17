@@ -1,0 +1,11 @@
+#see {
+  h1 {
+    font-size: 3em;
+    font-weight: 800;
+    span {
+      background: -webkit-linear-gradient(right, #5fa6ff, #282eeb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
